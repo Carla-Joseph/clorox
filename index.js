@@ -1,5 +1,5 @@
-const clxdtc = (n) => {
-  for (let i = 1; i <= n; i++) { 
+const clxDtc = (n) => {
+  for (let i = 1; i <= n; i++) {
     if (i % 3 === 0) {
       console.log('CLX');
     } else if (i % 5 === 0) {
@@ -14,4 +14,4 @@ const clxdtc = (n) => {
 
 
 const n = 100;
-clxdtc(n);
+clxDtc(n);
